@@ -7,7 +7,6 @@ find_package(std_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(csv-parser REQUIRED)
 find_package(cg_interfaces REQUIRED)
 
 include_directories(include)
@@ -20,7 +19,6 @@ ament_target_dependencies(astar_navigation
   nav_msgs
   geometry_msgs
   sensor_msgs
-  csv-parser
   cg_interfaces
 )
 
