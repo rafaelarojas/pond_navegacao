@@ -10,7 +10,7 @@ O projeto utiliza o seguinte pacote para a interface: https://github.com/rmnicol
 
 - send_initial_move: Envia um comando inicial baseado nas direções disponíveis.
 - send_move_request: Envia um comando de movimento ao serviço /move_command.
-- process_response: Processa a resposta do serviço para atualizar o estado do robô, o mapa e planejar o próximo movimento.
+- process_response: Processa a resposta do serviço para atualizar o estado do robô e planejar o próximo movimento.
 - plan_path: Implementa o algoritmo BFS para encontrar o menor caminho entre a posição atual e o alvo.
 - neighbor_pos: Calcula a posição vizinha com base na direção fornecida.
 - is_in_bounds: Verifica se uma posição está dentro dos limites do grid.
@@ -41,6 +41,6 @@ ros2 run ponderada navigation
 ---
 #### Referências
 
-- (Breadth First Search or BFS for a Graph)[https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/]
-- (BFS in C++: Breadth-First Search Algorithm & Program)[https://favtutor.com/blogs/bfs-breadth-first-search-cpp]
-- (C++ SDL AI Pathfinding: BFS, Dijkstra, GBFS and A* algorithms)[https://github.com/JoanStinson/Pathfinding]
+- [Breadth First Search or BFS for a Graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+- [BFS in C++: Breadth-First Search Algorithm & Program](https://favtutor.com/blogs/bfs-breadth-first-search-cpp)
+- [C++ SDL AI Pathfinding: BFS, Dijkstra, GBFS and A* algorithms](https://github.com/JoanStinson/Pathfinding)
