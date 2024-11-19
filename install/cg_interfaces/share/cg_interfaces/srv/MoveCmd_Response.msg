@@ -1,0 +1,8 @@
+
+bool success
+int8[2] robot_pos
+int8[2] target_pos
+string left
+string down
+string up
+string right
