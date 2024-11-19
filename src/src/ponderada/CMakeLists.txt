@@ -11,9 +11,9 @@ find_package(cg_interfaces REQUIRED)
 
 include_directories(include)
 
-add_executable(astar_navigation src/astar_navigation.cpp)
+add_executable(navigation src/navigation.cpp)
 
-ament_target_dependencies(astar_navigation
+ament_target_dependencies(navigation
   rclcpp
   std_msgs
   nav_msgs
@@ -23,7 +23,7 @@ ament_target_dependencies(astar_navigation
 )
 
 install(TARGETS
-  astar_navigation
+  navigation
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
